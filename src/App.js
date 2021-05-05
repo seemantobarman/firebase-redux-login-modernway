@@ -9,6 +9,7 @@ import {
 import { Button } from "@chakra-ui/button";
 import { Flex, Text } from "@chakra-ui/layout";
 import { useEffect, useState } from "react";
+require("dotenv").config();
 
 function App() {
 	console.log("1");
